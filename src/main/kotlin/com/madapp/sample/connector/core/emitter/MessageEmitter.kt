@@ -14,3 +14,6 @@ abstract class MessageEmitter {
     protected abstract suspend fun request(channel: String, body: String): String
     protected abstract suspend fun send(channel: String, body: String)
 }
+suspend inline fun <reified R, P> MessageEmitter.request(payload: Payload<P>): R {
+    return request(payload, R::class.java)
+}

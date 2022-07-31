@@ -4,27 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="BrokerMessageEmitter now is capable of emitting and requesting info">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/factory/ProductServiceFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/sales/SalesService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="Modules removed and replaced classes in main module">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/builder/builder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/Channels.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/builder/builder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connector_core/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/connector_core/src/main/java/com/madapp/sample/connector/core/emitter/MessageEmitter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/MessageEmitter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connector_core/src/main/java/com/madapp/sample/connector/core/emitter/Payload.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/Payload.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connector_core/src/main/java/com/madapp/sample/connector/core/emitter/broker/BrokerMessageEmitter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/broker/BrokerMessageEmitter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connector_core/src/main/java/com/madapp/sample/connector/core/receiver/MessageReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver/MessageReceiver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakebroker/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakebroker/src/main/java/MessageBroker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/fake/broker/MessageBroker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_connector/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/factory/ProductServiceFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/model/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/model/Product.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/MessageEmitter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/MessageEmitter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/broker/BrokerMessageEmitter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/broker/BrokerMessageEmitter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/factory/ProductServiceFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/sales/SalesService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/sales/SalesService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +28,30 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="connector_sample" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -77,11 +90,11 @@
       <recent name="$PROJECT_DIR$/fake_broker/src/java" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.madapp.sample.connector.product" />
+      <recent name="com.madapp.sample.connector.product.connector.factory" />
       <recent name="com.madapp.sample.connector.sales" />
       <recent name="com.madapp.sample.connector.fake.broker" />
       <recent name="com.madapp.sample.connector" />
-      <recent name="com.madapp.sample.connector.core.receiver" />
-      <recent name="com.madapp.sample.connector.core.emitter" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.madapp.sample.connector" />
@@ -166,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659276419906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modules removed and replaced classes in main module">
+      <created>1659278107784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659278107784</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +205,7 @@
     <MESSAGE value="Added fake message broker" />
     <MESSAGE value="Added product connector module" />
     <MESSAGE value="BrokerMessageEmitter now is capable of emitting and requesting info" />
-    <option name="LAST_COMMIT_MESSAGE" value="BrokerMessageEmitter now is capable of emitting and requesting info" />
+    <MESSAGE value="Modules removed and replaced classes in main module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modules removed and replaced classes in main module" />
   </component>
 </project>
