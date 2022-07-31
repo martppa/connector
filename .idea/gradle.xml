@@ -9,7 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/connector" />
+            <option value="$PROJECT_DIR$/connector_core" />
             <option value="$PROJECT_DIR$/fake_broker" />
+            <option value="$PROJECT_DIR$/fakebroker" />
             <option value="$PROJECT_DIR$/product_connector" />
           </set>
         </option>

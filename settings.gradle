@@ -3,4 +3,6 @@ rootProject.name = 'connector_sample'
 include 'fake_broker'
 include 'connector'
 include 'product_connector'
+include 'connector_core'
+include 'fakebroker'
 
