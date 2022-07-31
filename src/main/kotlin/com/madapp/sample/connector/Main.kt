@@ -8,6 +8,7 @@ fun main() {
     val sales = SalesService()
     val product = ProductService()
 
-    Thread { sales.start() }.start()
     Thread { product.start() }.start()
+    Thread.sleep(2000) // Await for everything to set up
+    Thread { sales.start() }.start()
 }
