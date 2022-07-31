@@ -1,3 +1,4 @@
 
 rootProject.name = 'connector_sample'
+include 'fake_broker'
 
