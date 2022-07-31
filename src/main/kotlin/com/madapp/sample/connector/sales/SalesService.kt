@@ -5,10 +5,13 @@ import kotlinx.coroutines.runBlocking
 
 class SalesService {
 
+    private val productId = "0123"
     private val productService = buildProductConnector()
 
     fun start() {
-        println("Sales service has started")
-        val product = runBlocking { productService.getProduct("0123") }
+        println("Sales: Service has started")
+        println("Sales: Product with id: $productId requested")
+        val product = runBlocking { productService.getProduct(productId) }
+        println("Sales: Received a product object: $product")
     }
 }

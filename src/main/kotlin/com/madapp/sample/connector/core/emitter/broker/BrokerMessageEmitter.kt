@@ -8,7 +8,7 @@ import kotlin.coroutines.suspendCoroutine
 class BrokerMessageEmitter : MessageEmitter() {
 
     override suspend fun request(channel: String, body: String): String {
-        println("Requesting $body via Broker")
+        println("Broker: Requesting $body")
         return suspendCoroutine { continuation ->
             MessageBroker.send(channel, body) {
                 continuation.resume(it)

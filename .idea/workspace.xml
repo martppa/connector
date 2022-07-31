@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="Modules removed and replaced classes in main module">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/builder/builder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/Channels.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/builder/builder.kt" afterDir="false" />
+    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="Sales now requesting product by id">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver/broker/BrokerMessageReceiver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver/builder/builder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/RequestGateway.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/MessageEmitter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/MessageEmitter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/broker/BrokerMessageEmitter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/broker/BrokerMessageEmitter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/factory/ProductServiceFactory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver/MessageReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver/MessageReceiver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/sales/SalesService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/sales/SalesService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659278107784</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sales now requesting product by id">
+      <created>1659279927327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659279927327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +210,7 @@
     <MESSAGE value="Added product connector module" />
     <MESSAGE value="BrokerMessageEmitter now is capable of emitting and requesting info" />
     <MESSAGE value="Modules removed and replaced classes in main module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modules removed and replaced classes in main module" />
+    <MESSAGE value="Sales now requesting product by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sales now requesting product by id" />
   </component>
 </project>

@@ -8,6 +8,6 @@ fun main() {
     val sales = SalesService()
     val product = ProductService()
 
-    sales.start()
-    product.start()
+    Thread { sales.start() }.start()
+    Thread { product.start() }.start()
 }
