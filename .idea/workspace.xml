@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="Request using broker implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/emitter/rest/RestMessageEmitter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver/rest/RestMessageReceiver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/fake/rest/RestController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/fake/rest/RestEmitter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/RequestGatewayImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/model/ProductAtService.kt" afterDir="false" />
+    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="Created different models for each domain. RequestGateway is now behind an interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/RequestGateway.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/RequestGateway.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/builder/builder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/builder/builder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/model/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/model/ProductAtConnector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/model/ProductAtService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/model/ProductAtService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659284804555</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created different models for each domain. RequestGateway is now behind an interface">
+      <created>1659289488568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659289488568</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +238,7 @@
     <MESSAGE value="Modules removed and replaced classes in main module" />
     <MESSAGE value="Sales now requesting product by id" />
     <MESSAGE value="Request using broker implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Request using broker implemented" />
+    <MESSAGE value="Created different models for each domain. RequestGateway is now behind an interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created different models for each domain. RequestGateway is now behind an interface" />
   </component>
 </project>

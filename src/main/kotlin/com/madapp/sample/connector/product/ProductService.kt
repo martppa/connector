@@ -1,8 +1,9 @@
 package com.madapp.sample.connector.product
 
-import com.madapp.sample.connector.product.connector.RequestGateway
 import com.madapp.sample.connector.product.connector.builder.buildProductGateway
 import com.madapp.sample.connector.product.connector.model.ProductAtConnector
+import com.madapp.sample.connector.product.model.ProductAtService
+import com.madapp.sample.connector.product.model.transform
 
 class ProductService {
 
@@ -16,10 +17,10 @@ class ProductService {
     private fun onProductRequested(productId: String, respond: (ProductAtConnector) -> Unit) {
         println("Product: Product by id requested using id: $productId")
         val product = findProduct(productId)
-        respond(product)
+        respond(product.transform())
     }
 
-    private fun findProduct(productId: String): ProductAtConnector {
-        return ProductAtConnector("0123", "Gaming Chair", 99F)
+    private fun findProduct(productId: String): ProductAtService {
+        return ProductAtService("0123", "Gaming Chair", 99F)
     }
 }
