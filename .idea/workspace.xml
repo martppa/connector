@@ -9,9 +9,16 @@
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver/rest/RestMessageReceiver.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/fake/rest/RestController.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/fake/rest/RestEmitter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/RequestGatewayImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/model/ProductAtService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/ProductService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/RequestGateway.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/RequestGateway.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/builder/builder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/builder/builder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/model/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/product/connector/model/ProductAtConnector.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,18 +71,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/dieppa/Documents/Development/connector_sample/src/main/kotlin/com/madapp/sample/connector/core/receiver",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dieppa/Documents/Development/connector_sample/src/main/kotlin/com/madapp/sample/connector/core/receiver&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/madapp/sample/connector/core/receiver" />
@@ -97,6 +104,8 @@
       <recent name="com.madapp.sample.connector" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.madapp.sample.connector.product.connector" />
+      <recent name="com.madapp.sample.connector.product.model" />
       <recent name="com.madapp.sample.connector.core.emitter.rest" />
       <recent name="com.madapp.sample.connector.fake.broker" />
     </key>
@@ -126,6 +135,19 @@
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.madapp.sample.connector.MainKt" />
       <module name="connector_sample.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="connector_sample.connector_core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="connector_sample.connector_core" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

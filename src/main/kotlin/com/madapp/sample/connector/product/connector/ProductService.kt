@@ -1,7 +1,7 @@
 package com.madapp.sample.connector.product.connector
 
-import com.madapp.sample.connector.product.connector.model.Product
+import com.madapp.sample.connector.product.connector.model.ProductAtConnector
 
 interface ProductService {
-    suspend fun getProduct(id: String): Product
+    suspend fun getProduct(id: String): ProductAtConnector
 }

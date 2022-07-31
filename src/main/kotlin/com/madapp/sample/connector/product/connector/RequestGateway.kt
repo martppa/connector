@@ -1,16 +1,7 @@
 package com.madapp.sample.connector.product.connector
 
-import com.madapp.sample.connector.core.receiver.builder.buildReceiver
-import com.madapp.sample.connector.core.receiver.observe
-import com.madapp.sample.connector.product.connector.model.Product
+import com.madapp.sample.connector.product.connector.model.ProductAtConnector
 
-class RequestGateway {
-
-    private val receiver = buildReceiver()
-
-    fun onGetProductById(block: (String, (Product) -> Unit) -> Unit) {
-        receiver.observe<String, Product>(Channels.GetProductById) { request, response ->
-            block(request) { response?.invoke(it) }
-        }
-    }
+interface RequestGateway {
+    fun onGetProductById(block: (String, (ProductAtConnector) -> Unit) -> Unit)
 }
