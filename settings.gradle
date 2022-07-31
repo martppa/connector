@@ -5,4 +5,5 @@ include 'connector'
 include 'product_connector'
 include 'connector_core'
 include 'fakebroker'
+include 'sales'
 
