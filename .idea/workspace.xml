@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fake_broker/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fake_broker/src/main/java/com/madapp/sample/connector/fake/broker/MessageBroker.kt" afterDir="false" />
+    <list default="true" id="227f2299-851d-4002-a6e4-76ae38917838" name="Changes" comment="Added fake message broker">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/ProductService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/ProductServiceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/factory/ProductServiceFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector/model/Product.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
@@ -38,10 +40,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "1.8"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/dieppa/Documents/Development/connector_sample/product_connector/src/main/java/com/madapp/sample/connector/product/connector"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product_connector/src/main/java/com/madapp/sample/connector/product/connector" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.madapp.sample.connector.fake.broker" />
     </key>
@@ -62,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659259162210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added fake message broker">
+      <created>1659260378971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659260378971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Added fake message broker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fake message broker" />
   </component>
 </project>
