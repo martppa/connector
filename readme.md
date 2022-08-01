@@ -1,6 +1,6 @@
 # Connector
 
-Services connector example.
+Services connector example using Forwarder-Receiver and Proxy Pattern.
 
 ## Description
 
